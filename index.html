@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Word Game</h1>
+        <div class="info">
+            <div class="time">
+                <div class="settime">
+                    <p id="time">Time:</p>
+                    <p class=": number"></p>
+                </div>
+                <div class="how">
+                    <h3 class="howtoplay">How To Play</h3>
+                    <p>Click the start button to begin</p>
+                    <p>Find as many words as you can</p>
+                    <p>You have only 30 seconds for each words</p>
+                    <p>If you want to change the word, click the "Next Word" button</p>
+                </div>
+            </div>
+            <div class="play">
+                <div id="scor">
+                <p class="score">Score:</p>
+                <p class="scor"></p>
+                </div>
+                <div class="word-box">
+                    <!-- <div class="box">
+                        <div class="herf"></div>
+                    </div> -->
+                </div>
+                <input type="text" class="inp">
+                <div class="point">
+                    <button class="btn" onclick="appendToshow('a',event)">a</button>
+                    <button class="btn" onclick="appendToshow('b',event)">b</button>
+                    <button class="btn" onclick="appendToshow('c',event)">c</button>
+                    <button class="btn" onclick="appendToshow('d',event)">d</button>
+                    <button class="btn" onclick="appendToshow('e',event)">e</button>
+                    <button class="btn" onclick="appendToshow('f',event)">f</button>
+                    <button class="btn" onclick="appendToshow('g',event)">g</button>
+                    <button class="btn" onclick="appendToshow('h',event)">h</button>
+                    <button class="btn" onclick="appendToshow('i',event)">i</button>
+                    <button class="btn" onclick="appendToshow('j',event)">j</button>
+                    <button class="btn" onclick="appendToshow('k',event)">k</button>
+                    <button class="btn" onclick="appendToshow('l',event)">l</button>
+                    <button class="btn" onclick="appendToshow('m',event)">m</button>
+                    <button class="btn" onclick="appendToshow('n',event)">n</button>
+                    <button class="btn" onclick="appendToshow('o',event)">o</button>
+                    <button class="btn" onclick="appendToshow('p',event)">p</button>
+                    <button class="btn" onclick="appendToshow('q',event)">q</button>
+                    <button class="btn" onclick="appendToshow('r',event)">r</button>
+                    <button class="btn" onclick="appendToshow('s',event)">s</button>
+                    <button class="btn" onclick="appendToshow('t',event)">t</button>
+                    <button class="btn" onclick="appendToshow('u',event)">u</button>
+                    <button class="btn" onclick="appendToshow('v',event)">v</button>
+                    <button class="btn" onclick="appendToshow('w',event)">w</button>
+                    <button class="btn" onclick="appendToshow('x',event)">x</button>
+                    <button class="btn" onclick="appendToshow('y',event)">y</button>
+                    <button class="btn" onclick="appendToshow('z',event)">z</button>
+                </div>
+            </div>
+            <div class="next">
+                <button class="start">Start</button>
+                <button id="next">Next Word</button>
+                <button class="hint">Hint...</button>
+                <div id="hint">
+                    <!-- <div class="hintword">
+                        <p>Word:</p>
+                        <p>Hint:</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
